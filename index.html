@@ -1,26 +1,44 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>QK | Developper</title>
-    	<link rel="icon" href="images/favicon.png" type="image/png" />
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<script type='text/javascript' src='scriptJS/jquery.particleground.js'></script>
-	<script type='text/javascript' src='scriptJS/mainParticule.js'></script>
-	<link rel="stylesheet" href="styleCSS/mainStyle.css">
-    </head>
-    <body>
-        <div class="topnav" id="myTopnav">
-			<a href="index.html" class="active">Home</a>
-			<a href="downloads/index.html">Downloads</a>
-			<a href="about/index.html">About</a>
-			<a href="https://github.com/Kiwki"><img alt="My GitHub" src="images/githubIcone.png" height="16"></a>
-		</div>
-		<div id="particles">
-			<div id="intro">
-				<h1>Hi, I'm Quentin,<br>
-				a developper.</h1>
-				<p>C++ / Flutter / jQuery</p>
-			</div>
-		</div>
+   <head>
+		<title>Loading page</title>
+		<meta http-equiv = "refresh" content = "2; url = https://lies-app.com/home.html" />
+		<style>
+			div {
+				height: 200px;
+				width: 400px;
+				background: none;
+
+				position: fixed;
+				top: 35%;
+				left: 45%;
+			}
+
+			.loader {
+				border: 16px solid #f3f3f3;
+				border-radius: 50%;
+				border-top: 16px solid blue;
+				border-right: 16px solid green;
+				border-bottom: 16px solid red;
+				border-left: 16px solid pink;
+				width: 120px;
+				height: 120px;
+				-webkit-animation: spin 2s linear infinite;
+				animation: spin 2s linear infinite;
+			}
+			
+			@-webkit-keyframes spin {
+				0% { -webkit-transform: rotate(0deg); }
+				100% { -webkit-transform: rotate(360deg); }
+			}
+
+			@keyframes spin {
+				0% { transform: rotate(0deg); }
+				100% { transform: rotate(360deg); }
+			}
+		</style>
+   </head>
+   <body>
+		<center><div class="loader"></div></center>
    </body>
 </html>
