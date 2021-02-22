@@ -68,8 +68,8 @@ body {
 #intro {
   position: absolute;
   left: 0;
-  top: 45%;
-  padding: 0 20px;
+  top: 40%;
+  padding: 0 10px;
   width: 100%;
   text-align: center;
 }
