@@ -10,9 +10,9 @@
     </head>
     <body>
         <div class="topnav" id="myTopnav">
-			<a href="home.html" class="active">Home</a>
-			<a href="dloads.html">Downloads</a>
-			<a href="about.html">About</a>
+			<a href="home.php" class="active">Home</a>
+			<a href="dloads.php">Downloads</a>
+			<a href="about.php">About</a>
 			<a href="https://github.com/Kiwki"><img alt="My GitHub" src="images/githubIcone.png" height="16"></a>
 		</div>
 		<div id="particles">

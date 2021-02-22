@@ -2,7 +2,7 @@
 <html>
    <head>
 		<title>Loading page</title>
-		<meta http-equiv = "refresh" content = "2; url = home.html" />
+		<meta http-equiv = "refresh" content = "2; url = home.php" />
 		<style>
 			body {
 				background: #16a085;
