@@ -59,7 +59,7 @@
 								$versionB = substr($lien, 1, 1);
 								$nameFile = substr($lien, 2);
 								echo "<tr>";
-								echo "<td>$versionA.$versionB</td><td class=\"file\"><a style=\"text-decoration:none\" href=\"$dir_nom/$lien \">$nameFile</a></td><td><a style=\"text-decoration:none\" href=\"$dir_nom/$lien \"><img src=\"images/zip.png\" title=\"PDF file\" alt=\"ZIP archive\" width=\"25px\"></a></td>";
+								echo "<td>$versionA.$versionB</td><td>$nameFile</td><td><a style=\"text-decoration:none\" href=\"$dir_nom/$lien \"><img src=\"images/zip.png\" title=\"PDF file\" alt=\"ZIP archive\" width=\"25px\"></a></td>";
 								echo "</tr>";
 							}
 					}
