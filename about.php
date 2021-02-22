@@ -15,11 +15,27 @@
 			.mySlides {display: none;}
 			img {vertical-align: middle;}
 			
+			#wrapper {
+				width: 100%;
+				height:100%;
+				border: none;
+				overflow: hidden; /* will contain if #first is longer than #second */
+			}
+			#first {
+				height: 30%;
+				float:left; /* add this */
+				border: none;
+			}
+			#second {
+				border: none;
+				overflow: hidden; /* if you don't want #second to wrap below #first */
+			}
+			
 			/* Slideshow container */
 			.slideshow-container {
-			  max-width: 50%;
+			  max-width: 60%;
 			  position: relative;
-			  margin: auto;
+			  margin: 10px;
 			}
 
 			/* Caption text */
@@ -90,14 +106,12 @@
 		</div>
 		<div id="particles">
 			<div id="intro">
-				<div>
-					<h2>Professionally connected with web/software/mobile development and programming technologies for many years.<br>
-						Well-organised person, problem solver, independent employee with high attention to detail.<br>
-						Fan of outdoor activities, TV series and anime/manga.
+				<div id="wrapper">
+					<h2 id="first">Professionally connected with web/software/mobile development and programming technologies for many years.<br>
+								   Well-organised person, problem solver, independent employee with high attention to detail.<br>
+								   Fan of outdoor activities, TV series and anime/manga.
 					</h2>
-					<br>
-					<div class="slideshow-container">
-
+					<div class="slideshow-container" id="second">
 						<div class="mySlides fade">
 							<div class="numbertext">1 / 6</div>
 								<img src="images/mangas.png" style="width:100%">
